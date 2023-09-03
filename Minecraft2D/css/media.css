@@ -1,0 +1,156 @@
+/* page 1 */
+.background {
+  background-image: url("../assets/images/landing page/background.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* page 2 */
+
+/* right side (game) */
+
+.dirt-tiles {
+  background-image: url(../assets/images/tiles/dirt.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.dirt-grass {
+  background-image: url(../assets/images/tiles/grass.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.leaves-1 {
+  background-image: url(../assets/images/tiles/leaves\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.leaves-2 {
+  background-image: url(../assets/images/tiles/leaves\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ore-diamond {
+  background-image: url(../assets/images/tiles/ore_diamond.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.stone {
+  background-image: url(../assets/images/tiles/stone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.stone-diamond {
+  background-image: url(../assets/images/tiles/stone_diamond_alt.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.stone-gold {
+  background-image: url(../assets/images/tiles/stone_gold.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sun {
+  background-image: url(../assets/images/tiles/sun.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.trunk-mid {
+  background-image: url(../assets/images/tiles/trunk_mid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* left side (inventory)*/
+.upgrade-button {
+  width: 6vw;
+  height: 10vh;
+  background-image: url("../assets/images/inventory/update\ items.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 3vh;
+}
+
+.shovel-button {
+  width: 6vw;
+  height: 10vh;
+  background-image: url("../assets/images/inventory/shovel_bronze.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 3vh;
+}
+
+.pick-button {
+  width: 6vw;
+  height: 10vh;
+  background-image: url("../assets/images/inventory/pick_bronze.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 3vh;
+}
+
+.axs-button {
+  width: 6vw;
+  height: 10vh;
+  background-image: url("../assets/images/inventory/axe_bronze.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 3vh;
+}
+
+.add-tiles-button {
+  width: 6vw;
+  height: 10vh;
+  background-image: url("../assets/images/inventory/add-tiles.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 3vh;
+}
+
+.inventory-button {
+  width: 6vw;
+  height: 10vh;
+  background-image: url("../assets/images/inventory/minecart-inventory.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 3vh;
+}
+
+
+.reset-button {
+  width: 6vw;
+  height: 10vh;
+  background-image: url("../assets/images/inventory/reset\ button-veed-remove-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 3vh;
+}
+

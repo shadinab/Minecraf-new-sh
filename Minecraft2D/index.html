@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>_MineCraft_2D_</title>
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+  </head>
+  <body>
+    <audio
+      id="backgroundMusic"
+      src="./assets/sounds/onlymp3.to - Minecraft FULL SOUNDTRACK-Dg0IjOzopYU-192k-1692992168.mp3"
+    ></audio>
+    <div class="container">
+      <div id="start-screen" class="postion background displaynone">
+        <p class="first3 divground">
+          Welcome to the enchanting world of my Minecraft realm!
+        </p>
+        <p class="first3 divground">
+          Prepare to embark on a journey of boundless exploration and ingenuity
+        </p>
+        <p class="first3 divground">
+          where you'll shape landscapes, conquer challenges, and forge your own
+          path
+        </p>
+        <button id="start-button" class="start-button">start Game</button>
+      </div>
+
+      <div id="hidden-screen" class="hidden">
+        <div class="flex-page">
+          <section class="left-section">
+            <div id="update-button" class="upgrade-button"></div>
+            <div id="shovel" class="shovel-button hover"></div>
+            <div id="pickaxe" class="pick-button hover"></div>
+            <div id="ax" class="axs-button hover"></div>
+            <div id="add-tiles" class="add-tiles-button hover"></div>
+
+            <div id="inventory" class="inventory-button hover"></div>
+
+            <div id="reset" class="reset-button hover"></div>
+          </section>
+
+          <section class="right-section">
+            <div class="grid" id="gridContainer"></div>
+
+            <section>
+              <div class="container-img-button" id="imageContainer">
+                <!-- Images will be added here using JavaScript -->
+              </div>
+
+              <div class="inventory-container" id="inventoryContainer">
+                <div id="1" class="inventory-tiles1"></div>
+                <div id="2" class="inventory-tiles1"></div>
+                <div id="3" class="inventory-tiles1"></div>
+                <div id="4" class="inventory-tiles1"></div>
+                <div id="5" class="inventory-tiles1"></div>
+                <div id="6" class="inventory-tiles1"></div>
+                <div id="7" class="inventory-tiles1"></div>
+                <div id="8" class="inventory-tiles1"></div>
+                <div id="9" class="inventory-tiles1"></div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
