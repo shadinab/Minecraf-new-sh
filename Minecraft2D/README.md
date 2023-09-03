@@ -1,6 +1,6 @@
-# 2D Minecraft Game 
+# 2D Minecraft Game
 
-![Game Minecraft 1](/screenshots/screenshot.png)
+![Game Minecraft 1](./assets/read.me/img%201.PNG)
 
 ## Description
 
@@ -16,8 +16,7 @@ This is a 2D Minecraft-inspired game developed in JavaScript. It offers a simpli
 
 ## Screenshots
 
-![Game Minecraft 2](/screenshots/screenshot1.png)
-
+![Game Minecraft 2](./assets/read.me/img%202.PNG)
 
 ## Getting Started
 
